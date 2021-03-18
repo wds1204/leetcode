@@ -17,10 +17,17 @@ public class Main {
 //            System.out.println("======"+num);
 //        }
 
-        System.out.println("翻转整数");
+//        System.out.println("翻转整数");
+//
+//        int reverse = ReverseTemp.reverse(2147483647);
+//        System.out.println("2147483647===>"+reverse);
 
-        int reverse = ReverseTemp.reverse(2147483647);
-        System.out.println("2147483647===>"+reverse);
+
+        System.out.println("回文数");
+
+        boolean palindrome = Palindrome.isPalindrome(1211);
+
+        System.out.println("121 ==="+palindrome);
 
     }
 }
