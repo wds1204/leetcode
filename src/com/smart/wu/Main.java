@@ -36,10 +36,14 @@ public class Main {
 //        System.out.println("MCMXCIV  num==="+num);
 
 
-        System.out.println("最长公共前缀");
+//        System.out.println("最长公共前缀");
 
-        String s = LongestCommonPrefix.longestCommonPrefix(new String[]{"flower", "flow", "flight"});
+//        String s = LongestCommonPrefix.longestCommonPrefix(new String[]{"flower", "flow", "flight"});
 
-        System.out.println("[\"flower\",\"flow\",\"flight\"]最长公共前缀"  +s);
+//        System.out.println("[\"flower\",\"flow\",\"flight\"]最长公共前缀"  +s);
+
+
+        boolean valid = IsValid.isValid("[]");
+        System.out.println("有效的括号=="  +valid);
     }
 }
