@@ -24,6 +24,8 @@
 > 输入：nums = [3,3], target = 6
 > 输出：[0,1]
 
+[代码解答](src/com/smart/wu/TwoSum.java)
+
  
 #### 2. 整数反转
 给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
@@ -58,6 +60,8 @@
 
 提示：
 > -231 <= x <= 231 - 1
+  
+  [代码解答](src/com/smart/wu/ReverseTemp.java)
 
 #### 3. 回文数
 给你一个整数X，如果X是一个回文整数，返回true，否则，返回false。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
@@ -83,3 +87,43 @@
 > 输出：false
 >
 > 解释：从右向左读, 为 01 。因此它不是一个回文数。
+
+[代码解答](src/com/smart/wu/Palindrome.java)
+
+
+#### 4. 罗马数字转整数
+
+![图片](pic/1616057886512.jpg)
+示例 1:
+
+> 输入: "III"
+>
+> 输出: 3
+
+示例 2:
+
+> 输入: "IV"
+>
+> 输出: 4
+
+[代码解答](src/com/smart/wu/RomanToInt.java)
+
+#### 5.最长公共前缀
+ 编写一个函数来查找字符串数组中的最长的公共前缀
+ ，如果不存在就返回字符串""。
+ 
+ 示例1：
+ > 输入：strs = ["flower","flow","flight"]
+ >
+>  输出："fl"
+
+示例 2：
+>输入：strs = ["dog","racecar","car"]
+>
+> 输出：""
+>
+> 解释：输入不存在公共前缀。
+
+[代码解答](src/com/smart/wu/LongestCommonPrefix.java)
+
+

@@ -23,11 +23,23 @@ public class Main {
 //        System.out.println("2147483647===>"+reverse);
 
 
-        System.out.println("回文数");
+//        System.out.println("回文数");
+//
+//        boolean palindrome = Palindrome.isPalindrome(1211);
+//
+//        System.out.println("121 ==="+palindrome);
+//        System.out.println("罗马数字转整数");
+        //1000 100 1000 10 100 1  5
+        //1000 100 500 10 100 1  5
+        //1000 900 90
+//        int num = RomanToInt.romanToInt("MCMXCIV");
+//        System.out.println("MCMXCIV  num==="+num);
 
-        boolean palindrome = Palindrome.isPalindrome(1211);
 
-        System.out.println("121 ==="+palindrome);
+        System.out.println("最长公共前缀");
 
+        String s = LongestCommonPrefix.longestCommonPrefix(new String[]{"flower", "flow", "flight"});
+
+        System.out.println("[\"flower\",\"flow\",\"flight\"]最长公共前缀"  +s);
     }
 }

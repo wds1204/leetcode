@@ -1,5 +1,8 @@
 package com.smart.wu;
 
+/**
+ * 整数翻转
+ */
 public class ReverseTemp {
 
     public  static int reverse(int num){
