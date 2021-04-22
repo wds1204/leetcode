@@ -6,17 +6,21 @@ public class RomanToInt {
     //MCMXCIV
     //1000 -100 1000 -10 100 -1 5 =1994
 
+
+
     //解答思路  数字的右边比自己大就是负数，数字比右边的数大则为正数。
+    // 这道理的解题思路就是 先确认罗马数字对应数字，再确认这些数字前面正负符号
     public static int romanToInt(String s) {
         int preNum = switchInt(s.charAt(0));
         int sum=0;
 
-        for (int i = 1; i <s.length() ; i++) {
+        for (int i = 1; i < s.length(); i++) {
             int num=switchInt(s.charAt(i));
+
             if (preNum<num){
-                sum-=preNum;
+                sum-=num;
             }else {
-                sum+=preNum;
+                sum+=num;
             }
             preNum=num;
         }
