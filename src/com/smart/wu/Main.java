@@ -43,7 +43,7 @@ public class Main {
 //        System.out.println("[\"flower\",\"flow\",\"flight\"]最长公共前缀"  +s);
 
 
-        boolean valid = IsValid.isValid("[]");
+        boolean valid = IsValid.isValid("[");
         System.out.println("有效的括号=="  +valid);
     }
 }
