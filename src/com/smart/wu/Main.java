@@ -41,9 +41,12 @@ public class Main {
 //        String s = LongestCommonPrefix.longestCommonPrefix(new String[]{"flower", "flow", "flight"});
 
 //        System.out.println("[\"flower\",\"flow\",\"flight\"]最长公共前缀"  +s);
+            /*有效的括号*/
+//        boolean valid = IsValid.isValid("[");
+//        System.out.println("有效的括号=="  +valid);
+        IsPrime.isPrime(400000);
 
 
-        boolean valid = IsValid.isValid("[");
-        System.out.println("有效的括号=="  +valid);
+
     }
 }

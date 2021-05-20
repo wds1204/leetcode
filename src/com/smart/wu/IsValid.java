@@ -6,6 +6,10 @@ import java.util.Stack;
 public class IsValid {
 
     public static boolean isValid(String s) {
+
+        int sqrt = (int) Math.sqrt(14);
+        System.out.println("sqrt====="+sqrt);
+
         if (s==null||s.length()%2==1||!isStartValid(s.charAt(0)))return false;
        HashMap<Character,Character>map= new HashMap<Character,Character>(){
            {
