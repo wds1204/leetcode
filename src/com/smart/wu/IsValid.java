@@ -3,6 +3,9 @@ package com.smart.wu;
 import java.util.HashMap;
 import java.util.Stack;
 
+/**
+ * 有效的括号.md
+ */
 public class IsValid {
 
     public static boolean isValid(String s) {
